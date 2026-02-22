@@ -1,0 +1,27 @@
+{
+  "poetry_files": [
+    "data/poetry/miyazawa_poetry_tokenized.txt",
+    "data/poetry/hagiwara_poetry_tokenized.txt",
+    "data/poetry/kusano_poetry_tokenized.txt"
+  ],
+  "tales_files": [
+    "data/tales/ogawa_tales_tokenized.txt",
+    "data/tales/niimi_tales_tokenized.txt",
+    "data/tales/miyazawa_tales_tokenized.txt"
+  ],
+  "stopwords_file": "data/stopwords/stopwords_ja.txt",
+  "output_dir": "outputs",
+
+  "top_n": 100,
+  "allow_only_single_kanji": true,
+  "remove_num_only": true,
+  "remove_punct_only": true,
+
+  "poetry_delimiter": "★",
+
+  "tales_chunk_size_tokens": 500,
+  "merge_short_last_chunk": true,
+  "min_last_chunk_tokens": 150,
+
+  "include_file_path_in_outputs": false
+}
